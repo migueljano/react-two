@@ -10,7 +10,7 @@ import horror from "../books/horror.json";
 
 class AllTheBooks extends Component {
   state = {
-    books: romance // Imposta il valore iniziale come romance
+    books: romance 
   };
 
   render() {
@@ -35,11 +35,11 @@ class AllTheBooks extends Component {
           </Button>
         </div>
         
-        <Row xs={1} sm={2} md={3} lg={4} className="gy-3">
+        <Row xs={1} sm={2} md={3} lg={4} className="gy-3" >
           {this.state.books.map((book) => (
             <Col key={book.asin}>
-              <Card>
-                <Card.Img variant="top" src={book.img} />
+              <Card style={{ width: "20rem", height: "80%" }}>
+                <Card.Img variant="top" src={book.img} style={{height: "60%"}} />
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
                   <div>
