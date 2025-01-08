@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
@@ -34,7 +34,7 @@ class AllTheBooks extends Component {
             Scifi
           </Button>
         </div>
-
+        
         <Row xs={1} sm={2} md={3} lg={4} className="gy-3">
           {this.state.books.map((book) => (
             <Col key={book.asin}>
