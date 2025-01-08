@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; //mi da errore!! 
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
@@ -15,12 +15,6 @@ class AllTheBooks extends Component {
   };
 
   render() {
-    console.log(this.state.books); // Aggiungi per debug
-
-    // Gestisci caso in cui i libri non sono caricati o l'array è vuoto
-    if (!this.state.books || this.state.books.length === 0) {
-      return <div>No books available</div>;
-    }
 
     return (
       <>
