@@ -1,8 +1,7 @@
-import React, { Component } from "react"; //mi da errore!! 
+import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
-
 import romance from "../Books/romance.json";
 import fantasy from "../Books/fantasy.json";
 import history from "../Books/history.json";
