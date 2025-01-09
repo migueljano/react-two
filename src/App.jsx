@@ -7,11 +7,14 @@ import MyNav from './assets/component/MyNav';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MyFooter from './assets/component/MyFooter';
 import AllTheBooks from './assets/component/AllTheBooks';
+import SingleBook from './assets/component/SingleBoook';
+
 
 function App() {
   return (
     <>
       <MyNav />
+      <SingleBook />
       <AllTheBooks />
       <MyFooter />
     </>
